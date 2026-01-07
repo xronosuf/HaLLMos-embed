@@ -669,7 +669,8 @@ Interactive
   Google Spreadsheet link: \expandafter\url{\detokenize{https://docs.google.com/spreadsheets/d/#1}}%
 }
 
-
+\newcommand{\hallmos}[1]{HaLLMos link:\url{https://hallmos.com/embed?#1}}
+\newenvironment{hallmosEnv}[1][]{The start of a Hallmos problem Statement}{The end of a Hallmos Statement}
 \newcommand{\graph}[2][]{\text{Graph of $#2$}}
 
 

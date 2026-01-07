@@ -1,0 +1,45 @@
+\documentclass{ximera}
+
+\title{HaLLMoS Demo Page}
+\author{Jason}
+
+\begin{document}
+\begin{abstract}
+    A HaLLMos Embed Attempted Demo
+\end{abstract}
+\maketitle
+
+\textbf{Note:} The actual name of the command and/or environments are just placeholders, 
+pending a conversation about the ``correct'' intuitive ones to use.
+
+Because of the way that the html of the script version is embedded, 
+it turns out that we can probably do either a command version; \verb|\hallmos[Instructor Notes]{Problem Statement}|
+or (because the problem statement is its own line in the html embed) we can do an environment version;
+\verb|\begin{hallmos}[Instructor Notes] Problem Statement \end{hallmos}|
+
+Here is the command version, which is literally written as:
+\verb|\hallmos[]{Suppose the number $n$ is even. Prove that $n+1$ is odd.}|
+
+\hallmos[]{Suppose the number $n$ is even. Prove that $n+1$ is odd.}
+
+
+Here is the environment version, which is literally written as:
+
+\begin{verbatim}
+\begin{hallmosEnv}[]
+Suppose that $n$ is odd. Prove that $n+1$ is even.
+\end{hallmosEnv}
+\end{verbatim}
+
+
+\begin{hallmosEnv}[]
+Suppose that $n$ is odd. Prove that $n+1$ is even.
+\end{hallmosEnv}
+
+
+
+Hopefully everything works!%
+
+\end{document}
+
+
