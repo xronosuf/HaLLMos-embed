@@ -285,7 +285,10 @@
 \HCode{<script type="text/javascript" src="https://hallmos.com/embed.js"> </script>}
 \HCode{<figure class="hallmos-embed" data-height="240">}
 \HCode{<blockquote>}} 
-{\HCode{</blockquote> </figure>} }
+{\HCode{</blockquote>} 
+\HCode{</figure>}
+
+}
 
 
 

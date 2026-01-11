@@ -1,0 +1,45 @@
+\documentclass{ximera}
+
+\title{H1Ex1}
+\author{Jason}
+
+\begin{document}
+\begin{abstract}
+    Extension Problem 1 for Homework 1
+\end{abstract}
+\maketitle
+
+The extension problem list is not homework that will be collected or graded (unless you want feedback from me - in which case you should email me, or talk to me before/after class). These are problems that encompass important ideas and/or common constructions/proof-techniques used in future analytic classes (e.g. graduate courses, specialized applications in engineering, physics, etc...). I include them here for those interested in pushing a little further on the topics from this section.
+
+This problem aims to prove one of the most commonly used tools in analysis; the \textbf{Cauchy-Schwarz Inequality};
+
+\begin{theorem}[Cauchy-Schwarz Inequality]
+    For all $x_1,x_2,y_1,y_2\in\R$,
+    \[
+        x_1y_1 + x_2y_2 \leq \sqrt{x_1^2 + x_2^2}\sqrt{y_1^2 + y_2^2}
+    \]
+\end{theorem}
+
+There are a lot of proofs of this inequality - and most of them have some kind of a "rabbit out of a hat" moment, 
+as this inequality secretly relies on a geometric justification (i.e. it is motivated by a picture, not algebra).
+
+Perhaps the most straight forward option is to prove the following (excusing for a moment where it comes from):
+\begin{hallmosEnv}[]
+    For all $x_1,x_2,y_1,y_2\in\R$,
+    \[
+        (x_1^2 + x_2^2)(y_1^2 + y_2^2) = (x_1y_1 + x_2y_2)^2 - (x_1y_2 - x_2y_1)^2
+    \]
+\end{hallmosEnv}
+Once you have the above proven, you can square root both sides and use the fact that, for $a\in\R$, $a^2 \geq 0$
+to complete the proof of the Cauchy-Schwarz Inequality.
+
+To motivate the Cauchy-Schwarz inequality, instead of algebra, it is better to use geometry.
+In particular, the explanation and picture below is a good example (the source is from math \href{https://math.stackexchange.com/questions/3784718/geometric-interpretation-of-the-cauchy-schwarz-inequality}{stackexchange here}.)
+
+\includegraphics{VisualizeCS.png}
+
+Remember HaLLMos is an a.i. model that is intended to give helpful feedback on your proof, in terms of validity (structural correctness) and completeness. However, it is \textit{just} an a.i. model and may not always be correct. HaLLMos should be used to verify what you think is a finished/valid proof, but if you ever have any uncertainty or questions about your proof or the problem itself, you should definitely contact your instructor to get clarification and assistance.
+
+\end{document}
+
+
